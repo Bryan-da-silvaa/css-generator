@@ -9,7 +9,7 @@ $name_html = 'index.html';
 $padding = 0;
 
 if($folder == "--help" || $folder == "-h") {
-    echo file_get_contents(".css_generator.txt") . "\n";
+    echo file_get_contents("css_generator.txt") . "\n";
     exit;
 }
 
